@@ -1,3 +1,4 @@
+/*
 const lotus = {
     name: 'Nelumbo nucifera', 
     botany: 'Pond or river bottom soil',
@@ -18,3 +19,16 @@ const title_ = `
 `;
 
 document.querySelector(".flower #title").innerHTML = title_;
+*/
+
+const lotus = {
+    title: 'Nelumbo nucifera', 
+    botany: 'Pond or river bottom soil',
+    symbol: 'Purity'
+}
+
+let title = document.querySelector("#title").innerHTML = `<span>Title: </span><span>${lotus.title}</span>`
+
+let botany = document.querySelector("#botany").innerHTML = `<span>Botany: </span><span>${lotus.botany}</span>`
+
+let symbol = document.querySelector("#symbol").innerHTML = `Symbol: ${lotus.symbol}`

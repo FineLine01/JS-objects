@@ -5,7 +5,7 @@ body {
 
 }
 
-.fl-cnt {
+.lotus-cnt {
     background: linear-gradient( rgba(232, 153, 181, 0.545) 60%, rgba(0, 105, 89, 0.479)) ;
     width: 300px;
     height: 500px;
@@ -15,7 +15,7 @@ body {
     color: white;
 }
 
-.fl-cnt img {
+.lotus-cnt > img {
     box-shadow: 0px 0px 15px 10px;
     position: absolute;
     top: 50px;
@@ -24,10 +24,15 @@ body {
     border: solid 5px rgb(218, 182, 182);
 }
 
-.flower {
+.lotus {
     position: absolute;
-    top: 330px;
-    left: 60px;
+    top: 320px;
+    left: 15px;
+    font-size: 19px;
+}
+
+.plumeria-cnt {
+    
 }
 
 
