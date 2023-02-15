@@ -89,12 +89,61 @@ body {
 }
 */
 
-.container {
+.cont-all {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 50px;
+    justify-content: space-evenly;
 }
+
+.lotus-cnt {
+    background: linear-gradient( rgba(232, 153, 181, 0.545) 60%, rgba(0, 105, 89, 0.479)) ;
+    width: 300px;
+    height: 500px;
+    border-radius: 30px ;
+    color: white;
+}
+
+.plumeria-cnt {
+    background: linear-gradient( rgb(255, 242, 127) 20%, rgb(255, 255, 255)) ;
+    width: 300px;
+    height: 500px;
+    border-radius: 30px ;
+    color: rgb(78, 122, 48);
+}
+
+.lily-cnt {
+    background: linear-gradient( rgb(255, 255, 255) 50%, rgb(88, 135, 67)) ;
+    width: 300px;
+    height: 500px;
+    border-radius: 30px ;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+
+.lotus-cnt > img {
+    box-shadow: 0px 0px 15px 10px;
+    border-radius: 30px;
+    border: solid 5px rgb(218, 182, 182);
+}
+
+.plumeria-cnt > img {
+    box-shadow: 0px 0px 15px 10px rgb(255, 255, 255);
+    border-radius: 30px;
+    border: solid 5px rgb(255, 242, 127);
+}
+
+.lily-cnt > img {
+    box-shadow: 0px 0px 15px 10px rgb(88, 135, 67);
+    border-radius: 30px;
+    border: solid 5px rgb(255, 255, 255);
+}
+
 
 
 
