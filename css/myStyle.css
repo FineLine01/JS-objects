@@ -2,7 +2,6 @@ body {
     font-family: 'Fondamento', cursive;
     background-color: rgb(240, 255, 205);
     text-align: center;
-
 }
 
 /*
@@ -93,7 +92,8 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 50px;
 }
 
 
